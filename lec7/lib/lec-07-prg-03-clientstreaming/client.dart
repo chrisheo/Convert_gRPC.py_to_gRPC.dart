@@ -40,5 +40,6 @@ Future<void> main(List<String> args) async {
 
   final stub = ClientStreamingClient(channel);
 
+
   send_message(stub);
 }
